@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    float sales;
+    scanf("%f",&sales);
+    float com;
+    if(sales>5000){
+        com=sales*(0.2);
+    }else if(sales>=2001 && sales<=5000){
+        com=sales*(0.15);
+    }else if(sales>=500 && sales<=2000){
+        com=sales*(0.1);
+    }else{
+        com=35;
+    }
+    printf("commission is %f",com);
+    
+
+    return 0;
+}
