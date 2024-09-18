@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
+
     float sales;
+   printf("Enter your sales:");
     scanf("%f",&sales);
     float com;
     if(sales>5000){
